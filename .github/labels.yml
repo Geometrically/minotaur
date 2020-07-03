@@ -1,14 +1,8 @@
-- name: 'Namespace: Users'
-  description: Issues and PRs related to the V8 engine.
+- name: 'Namespace: Authentication'
+  description: Issues and PRs related to user authentication.
   color: E3B724
-- name: 'Namespace: Mods'
-  description: Issues and PRs related to examples.
-  color: E3B724
-- name: 'Namespace: Modpacks'
-  description: Issues and PRs related to typings.
-  color: E3B724
-- name: 'Namespace: Documentation'
-  description: Issues and PRs related to documentation.
+- name: 'Namespace: OAuth'
+  description: Issues and PRs related to our OAuth spec implementation.
   color: E3B724
 - name: 'Namespace: Project'
   description: Issues and PRs related to the project in general.
@@ -52,7 +46,7 @@
 - name: 'Meta: Dependencies'
   description: Issues and PRs related to dependencies.
   color: BCBCBC
-- name: 'Meta: GitHub'
+- name: 'Meta: VCS'
   description: Issues and PRs related to GitHub.
   color: 000000
 - name: 'Meta: BugFix'
