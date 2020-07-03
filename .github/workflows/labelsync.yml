@@ -2,10 +2,9 @@ name: Label Sync
 
 on:
   issues:
-  label:
   push:
     branches:
-      - maser
+      - master
     paths:
       - '.github/labels.yml'
 
