@@ -25,7 +25,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: modrinth/labrinth/labrinth
+          repository: modrinth/minotaur/minotaur
           tag_with_ref: false
           tags: master
           tag_with_sha: true
