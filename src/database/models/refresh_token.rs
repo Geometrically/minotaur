@@ -1,4 +1,4 @@
 pub struct RefreshToken {
     pub id: String,
-    pub client_owner
+    pub client_owner: i32
 }

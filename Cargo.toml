@@ -6,6 +6,10 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "minotaur"
+path = "src/main.rs"
+
 [dependencies]
 actix = "0.9"
 actix-web = "2.0.0"
